@@ -1,1 +1,88 @@
 /* Acá van tus estilos */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eeeeee;
+}
+.nav-wrapper {
+    background-color: #333333;
+}
+#menu-wrapper {
+    padding-left: 120px;
+}
+#menu-wrapper a {
+    color: #999999;
+}
+.dropdown-content{
+	margin-top: 64px;	
+}
+.dropdown-content li{
+	background-color: #333333;
+}
+.dropdown-content li a{
+	color: #999999;
+	font-size: 1rem;
+}
+.dropdown-content li:hover{
+	background-color: #434343;
+}
+#menu-wrapper a:hover{
+	color: white;
+}
+#menu-sign a{
+	color: #999999;
+}
+#menu-sign a:hover{
+	color: white;
+}
+img{
+	height: 40px;
+}
+#logo{	
+    display: block;
+    top: 7px;
+    left: 20px;
+    background-repeat: no-repeat;
+}
+
+#btn-shots {
+    background-color: #fbfbfb;
+    color: #999999;
+    padding: 0 5px 0 5px;
+    font-size: .8em;
+    border-radius: 10px;
+    box-shadow: none;
+    border-color: #333333;
+}
+
+#sub-nav {
+    color: #333333;
+    text-align: center;
+    background-color: #fbfbfb;
+    height: 64px;
+}
+
+.sub-num {
+    color: #999999;
+}
+
+.nav-content {
+    width: 100%;
+}
+
+.fa-sort {
+    font-size: 0.7em;
+}
+
+
+#nav-downside {
+    background-color: white;
+    color: #999999;
+}
+
+.dribbble a li p {
+    background-color: #fbfbfb;
+}
