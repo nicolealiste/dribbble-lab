@@ -47,27 +47,54 @@ img{
     left: 20px;
     background-repeat: no-repeat;
 }
-
-#btn-shots {
-    background-color: #fbfbfb;
-    color: #999999;
-    padding: 0 5px 0 5px;
-    font-size: .8em;
-    border-radius: 10px;
-    box-shadow: none;
-    border-color: #333333;
-}
-
-#sub-nav {
+#sub-menu {
+	height: 60px;
     color: #333333;
-    text-align: center;
-    background-color: #fbfbfb;
-    height: 64px;
+    background-color: #fafafa;
+}
+#sub-menu b{
+	margin-right: 5px;
+	cursor: pointer;
+}
+#sub-menu .num{
+	margin-right: 10px;
+	color: #999999;
+	cursor: pointer;
+}
+#sub-menu .more{
+	display: -webkit-inline-box;
+	font-size: 1.5rem;
+	color: #999999;
+	height: 33px;
+	cursor: pointer;
+}
+#sub-menu .btn{
+	padding-right: 0px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-right: 20px;
+	height: 32px;
+	background: transparent;
+	color: #999999;
+	font-size: 12px;
+	text-transform: none;
+	letter-spacing:0px;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	box-shadow: none;
+}
+#sub-menu i.right{
+	margin-left: 0px;
+}
+#sub-menu .btn .unfold{
+	line-height:inherit;
+	font-size: 20px;
+	margin-right: 0px;
+	margin-left: 20px;
 }
 
-.sub-num {
-    color: #999999;
-}
+
+
 
 .nav-content {
     width: 100%;
