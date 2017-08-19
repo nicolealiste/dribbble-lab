@@ -6,6 +6,8 @@
 
 body {
     background: #eeeeee;
+    -webkit-box-sizing: border-box;
+
 }
 /*estilos nav-bar*/
 .nav-wrapper {
@@ -187,7 +189,23 @@ p.left{
 .perfil-icons i{
     color: #999;
 }
-
+/*estilos shots*/
+.card {
+    list-style: none;
+    border: 20px solid #fbfbfb;
+    background-color: #fbfbfb;
+    margin-bottom: 10px;
+}
+.grey{
+	color: #999;
+	margin-top: 1px;
+	font-size: 12px;	
+}
+.shots-i{
+	color:#999;
+	margin-left: 5px;
+}
+/*estilos footer*/
 
 
 
